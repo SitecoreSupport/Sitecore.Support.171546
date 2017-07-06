@@ -1,5 +1,5 @@
 # Sitecore.Support.171546
-Azure Search query to search for items filtered by language that contains hyphen returns the items for mixed languages
+Azure Search query to search the items (filtered by language that contains hyphen) returns the items for mixed languages
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.171546/blob/master/LICENSE).  
