@@ -65,40 +65,24 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Abstractions, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Abstractions.8.2.170407\lib\NET452\Sitecore.Abstractions.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SC.Sitecore.Abstractions.8.2.3\lib\Sitecore.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.8.2.170407\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.8.2.3\lib\Sitecore.ContentSearch.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Azure, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.Azure.8.2.170407\lib\NET452\Sitecore.ContentSearch.Azure.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.Azure.8.2.3\lib\Sitecore.ContentSearch.Azure.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Linq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.Linq.8.2.170407\lib\NET452\Sitecore.ContentSearch.Linq.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.Linq.8.2.3\lib\Sitecore.ContentSearch.Linq.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.8.2.170407\lib\NET452\Sitecore.Kernel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Logging, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.8.2.170407\lib\NET452\Sitecore.Logging.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Logging.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.Client.8.2.170407\lib\NET452\Sitecore.Logging.Client.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.NVelocity, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.NVelocity.8.2.170407\lib\NET452\Sitecore.NVelocity.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Zip, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Zip.8.2.170407\lib\NET452\Sitecore.Zip.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.3\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -116,9 +100,6 @@
     <Compile Include="LinqToCloudIndex.cs" />
     <Compile Include="Operations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.171546.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
